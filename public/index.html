@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Packages</title>
+  <style>
+    .pricing-section {
+      padding: 80px 0;
+    }
+
+    .pricing-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .pricing-plans {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .plan-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .plan-card.featured {
+      background-color: #0077b6;
+      color: #fff;
+    }
+
+    .plan-header {
+      margin-bottom: 30px;
+    }
+
+    .plan-name {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .plan-price {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .plan-features {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    .plan-features li {
+      margin-bottom: 10px;
+    }
+
+    .plan-button {
+      display: inline-block;
+      background-color: #0077b6;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .plan-button:hover {
+      background-color: #005a8e;
+    }
+
+    .plan-card.featured .plan-button {
+      background-color: #fff;
+      color: #0077b6;
+    }
+
+    .plan-card.featured .plan-button:hover {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="pricing-section">
+    <div class="container">
+      <h2 class="pricing-title">Our Subscription Packages</h2>
+      <div class="pricing-plans">
+        <div class="plan-card">
+          <div class="plan-header">
+            <h3 class="plan-name">Basic</h3>
+            <p class="plan-price">$9/month</p>
+          </div>
+          <ul class="plan-features">
+            <li>5 GB Storage</li>
+            <li>1 User Account</li>
+            <li>Limited Support</li>
+          </ul>
+          <a href="https://buy.stripe.com/test_aEU00C4Xe9cU1BC5kk" class="plan-button">Get Started</a>
+        </div>
+        <div class="plan-card featured">
+          <div class="plan-header">
+            <h3 class="plan-name">Pro</h3>
+            <p class="plan-price">$19/month</p>
+          </div>
+          <ul class="plan-features">
+            <li>20 GB Storage</li>
+            <li>5 User Accounts</li>
+            <li>Priority Support</li>
+            <li>Advanced Features</li>
+          </ul>
+          <a href="#" class="plan-button">Get Started</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-header">
+            <h3 class="plan-name">Enterprise</h3>
+            <p class="plan-price">$49/month</p>
+          </div>
+          <ul class="plan-features">
+            <li>Unlimited Storage</li>
+            <li>Unlimited User Accounts</li>
+            <li>Dedicated Support</li>
+            <li>Customized Solutions</li>
+          </ul>
+          <a href="#" class="plan-button">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
